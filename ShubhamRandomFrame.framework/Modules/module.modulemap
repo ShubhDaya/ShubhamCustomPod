@@ -1,0 +1,11 @@
+framework module ShubhamRandomFrame {
+  umbrella header "ShubhamRandomFrame.h"
+
+  export *
+  module * { export * }
+}
+
+module ShubhamRandomFrame.Swift {
+  header "ShubhamRandomFrame-Swift.h"
+  requires objc
+}
